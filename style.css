@@ -1,6 +1,5 @@
 .calculator {
     padding: 10px;
-    border-radius: 16px;
     height: 380px;
     width: 400px;
     margin: auto;
@@ -12,7 +11,6 @@
     background-color: #dcdbe1;
     border: solid 0.5px;
     color: black;
-    border-radius: 5px;
     width: 80%;
     height: 40%;
 }
@@ -22,8 +20,8 @@
     background-color: #64278f;
     color: white;
     border: solid 0.5px;
-    width: 90%;
-    border-radius: 30px;
+    width: 100%;
+    height: 40px;
 }
 
 .button:active,
