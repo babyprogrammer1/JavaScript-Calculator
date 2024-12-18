@@ -31,8 +31,22 @@
             value="1"
             onclick="display('1')"
           />
-        </td>
-
+        </td>        
+        <tr>
+            <td  colspan="3">
+                <input class="display-box" type="text" id="result" disabled>
+            </td>
+            <!-- clearScreen() function clear all the values -->
+            <td>
+                <input class="button"  id="button" type="button" value="C" onclick="clearDisplay()" 
+                style="background-color: #fb0066;">
+            </td>
+        </tr>
+        <!-- display() function display the value of clicked button-->
+        <tr>
+            <td>
+                <input class="button" type="button" value="1" onclick="display('1')">
+            </td> 
         <td>
           <input
             class="button"
