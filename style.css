@@ -24,7 +24,15 @@
   background-color: #4caf50;
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px #999;
+  transition: transform 0.2s;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
 }
 
 #button {
@@ -45,4 +53,27 @@
 .clear-button:hover,
 .equals-button:hover {
   background-color: #e53935;
+}
+
+@media (max-width: 600px) {
+  .calculator {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .button {
+    width: 48px;
+    height: 48px;
+    margin: 4px;
+  }
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .button {
+  background-color: #555;
+  color: #fff;
 }

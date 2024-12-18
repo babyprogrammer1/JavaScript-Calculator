@@ -21,5 +21,11 @@ document.querySelectorAll('.button').forEach(button => {
     });
 });
 
+function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+}
+
+document.getElementById('dark-mode-toggle').addEventListener('click', toggleDarkMode);
+
 document.querySelector('.clear-button').addEventListener('click', clearDisplay);
 document.querySelector('.equals-button').addEventListener('click', calculate);
